@@ -1,0 +1,105 @@
+body {
+  background-image: url(/image/psbgimg.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.nav {
+  overflow: hidden;
+}
+
+.nav button {
+  float: left;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  padding: 6px 18px;
+  transition: 0.3s;
+  font-size: 18px;
+}
+
+.nav button:hover {
+  background-color: lightgrey;
+}
+
+.nav button.active {
+  background-color: grey;
+}
+
+.navcontent {
+  display: none;
+}
+
+.ps--infor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  position: relative;
+  bottom: -100px;
+}
+
+.name {
+  margin: 15px;
+  font-size: 30px;
+}
+
+.purpose {
+  margin: 15px;
+  font-size: 28px;
+}
+
+.location {
+  margin: 30px;
+  font-size: 26px;
+}
+
+.institution {
+  margin: 10px;
+  font-size: 24px;
+}
+
+.skillbox {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.ftbox {
+  margin: 20px;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bkbox {
+  margin: 20px;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ftbox--title {
+  font-size: 26px;
+}
+
+.bkbox--title {
+  font-size: 26px;
+}
+
+ul.ftbox--items {
+  padding: 20px;
+  justify-content: center;
+  font-size: 20px;
+}
+
+ul.bkbox--items {
+  padding: 20px;
+  justify-content: center;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
