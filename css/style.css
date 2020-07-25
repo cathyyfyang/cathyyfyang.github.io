@@ -1,38 +1,37 @@
 body {
-    background-image: url(../image/psbgimg.webp);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  background-image: url(../image/psbgimg.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-
 .navlists {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .navlists button {
-    float: left;
-    background-color: rgb(241, 229, 229);
-    border-radius: 5px;
-    outline:none;
-    cursor: pointer;
-    transition: 0.3s;
-    font-size: 18px;
-    height:30px;
-    width: 100px;
-    margin: 2px;
+  float: left;
+  background-color: #f1e5e5;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 18px;
+  height: 30px;
+  width: 100px;
+  margin: 2px;
 }
 
 .navlists button:hover {
-    background-color:rgb(224, 217, 217);
+  background-color: #e0d9d9;
 }
 
 .navlists button.active {
-    background-color: rgb(128, 128, 128);
+  background-color: gray;
 }
 
 .navcontent {
-    display: none;
+  display: none;
 }
 
 .ps__info {
@@ -42,84 +41,84 @@ body {
   position: relative;
   bottom: -100px;
 }
-.ps__info:hover{
-    color: rgb(100, 95, 95);
+
+.ps__info:hover {
+  color: #645f5f;
 }
-h1,  {
-    margin:25px;
+
+h1 {
+  margin: 25px;
 }
 
 .position, .location, .institution {
-    font-size: 26px;
-    margin:20px;
-    font-style: italic;
+  font-size: 26px;
+  margin: 20px;
+  font-style: italic;
 }
 
 .skill__box {
-    display: flex;
-    left: 50px;
+  display: flex;
+  left: 50px;
 }
 
 .fd__box {
-    position: relative;
-    top:10px;
-    margin: 20px;
-
+  position: relative;
+  top: 10px;
+  margin: 20px;
 }
 
 .bd__box {
-    position: relative;
-    top: 100px;
-    margin: 20px;
-
+  position: relative;
+  top: 100px;
+  margin: 20px;
 }
 
 .fd__name, .bd__name {
-    font-size: 24px;
-    font-weight: bold;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .skill__items > div {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 20px;
-    border-radius: 10px;
-    background-color: rgb(128, 128, 128);
-    color: rgb(255, 255, 255);
-    font-style: italic;
-    margin: 40px;
-    padding: 20px;
-    cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: gray;
+  color: white;
+  font-style: italic;
+  margin: 40px;
+  padding: 20px;
+  cursor: pointer;
 }
 
 .skill__items :hover {
-    background-color: rgb(243, 229, 231);
-    color:rgb(29, 26, 26);
+  background-color: #f3e5e7;
+  color: #1d1a1a;
 }
 
 .ptresume {
-    position: absolute;
-    top:100px;
-    left:10px;
-    font-size: 28px;
-
-
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  font-size: 28px;
 }
 
 .download-resume {
-    position: absolute;
-    top:100px;
-    left:100px;
-    font-size: 24px;
-    cursor: pointer;
-    border-radius: 15px;
-    background:linear-gradient( to right, rgb(196, 194, 194),rgb(182, 179, 179), rgb(65, 64, 64));
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 15px;
+  background: linear-gradient(to right, #c4c2c2, #b6b3b3, #414040);
 }
 
 .ptresume:hover {
-    color: rgb(136, 139, 139);
+  color: #888b8b;
 }
 
 h2:hover {
-    color: rgb(90, 87, 87);
+  color: #5a5757;
 }
+
+/*# sourceMappingURL=style.css.map */
