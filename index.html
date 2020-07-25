@@ -6,46 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <script type="text/javascript" src="/js/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script type="text/javascript" src="../js/index.js"></script>
 </head>
 
 <body>
-    <div class="nav">
-        <button class="navlinks" onclick="OpenNav(event,'home')">home</button>
+    <div class="navlists">
+        <button class="navlinks" onclick="OpenNav(event,'about')">about</button>
         <button class="navlinks" onclick="OpenNav(event,'skill')">skill</button>
+        <button class="navlinks" onclick="OpenNav(event,'resume')">resume</button>
+        <button class="navlinks" onclick="OpenNav(event,'portfolio')">portfolio</button>
+        <button class="navlinks" onclick="OpenNav(event,'contact')">contact</button>
+
+
     </div>
-    <div id="home" class="navcontent">
-        <div class="ps--infor">
-            <div class="name"> Cathy Yang </div>
-            <div class="purpose"> Full Stack Developer </div>
-            <div class="location"> Brisbane </div>
-            <div class="institution"> JR Academy </div>
+    <div id="about" class="navcontent">
+        <div class="ps__info">
+            <h1>CATHY YANG</h1>
+            <div class="position"> FULL STACK DEVELOPER </div>
+            <div class="location"> BRISBANE </div>
+            <div class="institution"> JR ACADEMY </div>
         </div>
     </div>
     <div id="skill" class="navcontent">
-        <div class="skillbox">
-            <div class="ftbox">
-                <h2 class="ftbox--title">Front end</h2>
-                <ul class="ftbox--items">
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>SCSS</li>
-                    <li>SASS</li>
-                    <li>Javascript</li>
-                    <li>BootStrap</li>
-                </ul>
+        <div class="skill__box">
+            <div class="fd__box">
+                <div class="fd__name">Front end</div>
+                <div class="skill__items">
+                    <div>HTML5</div>
+                    <div>CSS</div>
+                    <div>SCSS</div>
+                    <div>SASS</div>
+                    <div>Javascript</div>
+                    <div>BootStrap</div>
+                </div>
             </div>
-            <div class="bkbox">
-                <h2 class="bkbox--title">Back end</h2>
-                <ul class="bkbox--items">
-                    <li>Node.js</li>
-                    <li>RESTful API</li>
-                    <li>Postman</li>
-                </ul>
+            <div class="bd__box">
+                <div class="bd__name">Back end</div>
+                <div class="skill__items">
+                    <div>Node.js</div>
+                    <div>RESTful API</div>
+                    <div>Postman</div>
+                </div>
             </div>
         </div>
     </div>
+    <div id="resume" class="navcontent">
+        <div class="ptresume"> -----></div>
+        <button class="download-resume"> Download my resume </button>
+    </div>
+    <div id="portfolio" class="navcontent">
+        <h2> Showing some of my designing work </h2>
+        <button>card design</button>
+        <button>project1</button>
+        <button>project2</button>
+        <button>project3</button>
+
+    </div>
+    <div id="contact" class="navcontent">
+        <h3> Message Me </h3>
+        <form>
+            <label for="fname">First name: </label><br>
+            <input type="text" id="fname" name="fname" value="Your first name"><br>
+            <label for="Iname">Last name:</label><br>
+            <input type="text" id="Iname" name="Iname" value="Your last name"><br>
+            <label for="email">Your email:</label><br>
+            <input type="text" id="email" name="email" value="Your email"><br>
+            <label for="subject">Subject</label><br>
+            <input type="text" id="subject" name="subject" value="Subject"><br>
+            <label for="message">Message</label><br>
+            <input type="text" id="message" name="message" value="Message"><br><br>
+            <input type="button" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
+</div>
 </body>
 
 </html>
