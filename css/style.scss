@@ -3,9 +3,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    opacity: 0.5;
 }
-
 
 .navlists {
     overflow: hidden;
@@ -15,17 +13,17 @@ body {
     float: left;
     background-color: rgb(241, 229, 229);
     border-radius: 5px;
-    outline:none;
+    outline: none;
     cursor: pointer;
     transition: 0.3s;
     font-size: 18px;
-    height:30px;
+    height: 30px;
     width: 100px;
     margin: 2px;
 }
 
 .navlists button:hover {
-    background-color:rgb(224, 217, 217);
+    background-color: rgb(224, 217, 217);
 }
 
 .navlists button.active {
@@ -37,47 +35,54 @@ body {
 }
 
 .ps__info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  bottom: -100px;
-}
-.ps__info:hover{
-    color: rgb(100, 95, 95);
-}
-h1,  {
-    margin:25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    background-color: rgba(204, 195, 195, 0.6);
+    border-radius: 10px;
 }
 
-.position, .location, .institution {
-    font-size: 26px;
-    margin:20px;
+.ps__info:hover {
+    color: rgb(100, 95, 95);
+}
+h1 {
+    margin: 25px;
+}
+
+.position,
+.location,
+.institution {
+    font-size: 25px;
+    margin: 20px;
     font-style: italic;
 }
 
 .skill__box {
-    display: flex;
-    left: 50px;
-}
-
-.fd__box {
-    position: relative;
-    top:10px;
-    margin: 20px;
-
-}
-
-.bd__box {
-    position: relative;
+    display: block;
     top: 100px;
-    margin: 20px;
-
+    position: absolute;
 }
 
-.fd__name, .bd__name {
-    font-size: 24px;
+.fd__box,
+.bd__box {
+    margin: 30px 20px;
+}
+
+.fd__name,
+.bd__name {
+    font-size: 25px;
     font-weight: bold;
+    margin: 10px;
+    left:200px;
+    position: relative;
+}
+
+.skill__items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .skill__items > div {
@@ -88,33 +93,31 @@ h1,  {
     background-color: rgb(128, 128, 128);
     color: rgb(255, 255, 255);
     font-style: italic;
-    margin: 40px;
-    padding: 20px;
+    margin: 10px;
+    padding: 15px;
     cursor: pointer;
 }
 
 .skill__items :hover {
     background-color: rgb(243, 229, 231);
-    color:rgb(29, 26, 26);
+    color: rgb(29, 26, 26);
 }
 
 .ptresume {
     position: absolute;
-    top:100px;
-    left:10px;
-    font-size: 28px;
-
-
+    top: 100px;
+    left: 10px;
+    font-size: 25px;
 }
 
 .download-resume {
     position: absolute;
-    top:100px;
-    left:100px;
-    font-size: 24px;
+    top: 100px;
+    left: 100px;
+    font-size: 20px;
     cursor: pointer;
     border-radius: 15px;
-    background:linear-gradient( to right, rgb(196, 194, 194),rgb(182, 179, 179), rgb(65, 64, 64));
+    background: linear-gradient(to right, rgb(196, 194, 194), rgb(182, 179, 179), rgb(65, 64, 64));
 }
 
 .ptresume:hover {
@@ -124,3 +127,4 @@ h1,  {
 h2:hover {
     color: rgb(90, 87, 87);
 }
+
