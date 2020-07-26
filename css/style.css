@@ -3,7 +3,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  opacity: 0.5;
 }
 
 .navlists {
@@ -40,7 +39,9 @@ body {
   flex-direction: column;
   align-items: center;
   position: relative;
-  bottom: -100px;
+  top: 100px;
+  background-color: rgba(204, 195, 195, 0.6);
+  border-radius: 10px;
 }
 
 .ps__info:hover {
@@ -51,32 +52,38 @@ h1 {
   margin: 25px;
 }
 
-.position, .location, .institution {
-  font-size: 26px;
+.position,
+.location,
+.institution {
+  font-size: 25px;
   margin: 20px;
   font-style: italic;
 }
 
 .skill__box {
-  display: flex;
-  left: 50px;
-}
-
-.fd__box {
-  position: relative;
-  top: 10px;
-  margin: 20px;
-}
-
-.bd__box {
-  position: relative;
+  display: block;
   top: 100px;
-  margin: 20px;
+  position: absolute;
 }
 
-.fd__name, .bd__name {
-  font-size: 24px;
+.fd__box,
+.bd__box {
+  margin: 30px 20px;
+}
+
+.fd__name,
+.bd__name {
+  font-size: 25px;
   font-weight: bold;
+  margin: 10px;
+  left: 200px;
+  position: relative;
+}
+
+.skill__items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .skill__items > div {
@@ -87,8 +94,8 @@ h1 {
   background-color: gray;
   color: white;
   font-style: italic;
-  margin: 40px;
-  padding: 20px;
+  margin: 10px;
+  padding: 15px;
   cursor: pointer;
 }
 
@@ -101,14 +108,14 @@ h1 {
   position: absolute;
   top: 100px;
   left: 10px;
-  font-size: 28px;
+  font-size: 25px;
 }
 
 .download-resume {
   position: absolute;
   top: 100px;
   left: 100px;
-  font-size: 24px;
+  font-size: 20px;
   cursor: pointer;
   border-radius: 15px;
   background: linear-gradient(to right, #c4c2c2, #b6b3b3, #414040);
